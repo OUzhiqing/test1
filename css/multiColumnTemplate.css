@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/*@import url(https://csc3185multimedia/2019.com/css?family=Roboto:400,300,700)*/
+.container {
+	background-color: #FFFFFF;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.primary_header {
+	width: 100%;
+	background-color: #FFFFFF;
+	padding-top: 0px;
+	padding-bottom: 25px;
+	clear: left;
+	border-bottom: 2px solid #FFFFFF;
+}
+.secondary_header {
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #FFFFFF;
+	clear: left;
+}
+.container .secondary_header ul {
+	margin-top: 0%;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	width: 100%;
+}
+.secondary_header ul li {
+	list-style: none;
+	float: left;
+	margin-right: auto;
+	margin-top: 0px;
+	font-family: "Source Sans Pro";
+	font-weight: normal;
+	color: #B3B3B3;
+	letter-spacing: 1px;
+	margin-left: auto;
+	text-align: center;
+	width: 20%;
+	transition: all 0.3s linear;
+}
+.secondary_header ul li:hover {
+	color: #717070;
+	cursor: pointer;
+}
+.box {
+	position: relative;
+	width: 100%;
+}
+.box img{
+	width: 100%;
+}
+.box p{
+    color: #B3B3B3;
+    font-size: x-large;
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    left: 660px;
+    bottom: 260px;
+}
+.box h2{
+	color: #FFFFFF;
+	font-size: xx-large;
+	position: absolute;
+	width: 400px;
+	height: 60px;
+	left: 660px;
+	bottom: 340px;
+}
+.right_article ul li {
+	font-family: "Source Sans Pro";
+	list-style: none;
+	text-align: center;
+	background-color: #FFFFFF;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #B3B3B3;
+	font-weight: bold;
+	border-radius: 0px;
+	transition: all 0.3s linear;
+	border-left: 5px solid #717070;
+}
+.right_article ul li:hover {
+	background-color: #717070;
+	cursor: pointer;
+}
+.title {
+	font-weight: bold;
+	font-style: normal;
+	font-family: "Source Sans Pro";
+	text-align: center;
+	color: #000000;
+	letter-spacing: 2px;
+}
