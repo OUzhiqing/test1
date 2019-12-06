@@ -1,0 +1,156 @@
+.line-height {
+	line-height: 1.4
+}
+.link--gray {
+	font-weight: 700;
+	color: #555
+}
+.link--gray:focus, .link--gray:hover {
+	color: #0b68b0
+}
+.link--arrow {
+	font-size: 13px;
+	font-weight: 700;
+	color: #555
+}
+.link--arrow:focus, .link--arrow:hover {
+	color: #0b68b0
+}
+.link--arrow:before {
+	content: "â€º";
+	font-size: 21px;
+	color: #0b68b0;
+	float: left;
+	margin: -4px 0 0 -10px
+}
+.link--caps {
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: .05em
+}
+.no-tap-highlight {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent
+}
+.hero--imaging-systems-category {
+	background-image: url(/common/images/hero/small/hero-visias-shelf.jpg?2016-mar-15)
+}
+.hero--imaging-systems-category .hero-text--title {
+	margin-bottom: 10px
+}
+.group-overview {
+	padding-top: 25px
+}
+.group-overview .text {
+	padding-top: 2px;
+	font-size: 21px;
+	font-weight: 300
+}
+.product-grid--row {
+	padding-bottom: 25px;
+	margin-bottom: 25px
+}
+.product-grid--product {
+	display: block;
+	text-align: center
+}
+.product-grid--image {
+	margin: 0 auto;
+	line-height: 0
+}
+.product-grid--text {
+	padding: 10px 0;
+	border-top: 1px solid #e5e5e5
+}
+.product-grid--product-title {
+	font-size: 21px
+}
+.product-grid--product-byline {
+	font-size: 13px;
+	line-height: 1;
+	display: block;
+	margin-top: 10px;
+	color: #a3a3a3
+}
+.is-services-category {
+	background: url(/common/images/imaging-systems/home/top-overview--imaging-systems.jpg?2016-mar-15) center center no-repeat #18181e;
+	background-size: cover;
+	border-bottom: 1px solid #2a2a2a
+}
+.is-services-category * {
+	color: #fff
+}
+.is-services {
+	padding: 50px 0
+}
+.is-services-a {
+	text-align: center;
+	display: block;
+	padding: 10px 0;
+	border-radius: 1px;
+	transition: .2s all ease-out;
+	outline: transparent solid 1px
+}
+.is-services-a:hover {
+	background: rgba(255,255,255,.1);
+	outline: rgba(255,255,255,.2) solid 1px
+}
+.is-services-img {
+	margin: 0 auto
+}
+.is-services-link, .is-services-p, .is-services-title {
+	display: block;
+	text-align: center;
+	margin: 15px 25px 0
+}
+.is-services-p {
+	font-size: 13px;
+	line-height: 1.4;
+	color: #a3a3a3
+}
+.is-services-a--distributors {
+	background: #0b68b0
+}
+.is-services-a--distributors .is-services-p {
+	color: #85b3d7
+}
+.is-services-a--distributors:hover {
+	background: #0a5d9e
+}
+.news {
+	padding: 75px 0;
+	background: #f6f6f6
+}
+.news .h2 {
+	text-align: center
+}
+.news .stories a {
+	margin-top: 50px;
+	color: #2a2a2a;
+	font-weight: 700;
+	display: block;
+	line-height: 1.2
+}
+.news .stories a:active, .news .stories a:focus, .news .stories a:hover {
+	color: #0b68b0
+}
+.news .stories a small {
+	display: block;
+	color: #a3a3a3;
+	margin-top: 5px;
+	font-weight: 400
+}
+.news .cta {
+	text-align: center;
+	padding-top: 50px
+}
+
+@media screen and (max-width:650px) {
+.news .h2 {
+	margin-bottom: 25px
+}
+.news .stories a {
+	margin-top: 25px
+}
+}

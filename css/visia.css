@@ -1,0 +1,108 @@
+.line-height {
+	line-height: 1.4
+}
+.link--gray {
+	font-weight: 700;
+	color: #555
+}
+.link--gray:focus, .link--gray:hover {
+	color: #0b68b0
+}
+.link--arrow {
+	font-size: 13px;
+	font-weight: 700;
+	color: #555
+}
+.link--arrow:focus, .link--arrow:hover {
+	color: #0b68b0
+}
+.link--arrow:before {
+	content: "â€º";
+	font-size: 21px;
+	color: #0b68b0;
+	float: left;
+	margin: -4px 0 0 -10px
+}
+.link--caps {
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: .05em
+}
+.no-tap-highlight {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent
+}
+.product-title {
+	background-color: #000;
+	background-image: url(/common/images/products/3/title/product-title.jpg?2016-mar-15)
+}
+.product-title .text .logo {
+	width: 100px;
+	height: 60px
+}
+.product-title .text .h1, .product-title .text p {
+	color: #fff
+}
+.capture {
+	text-align: center;
+	background: #eee7df
+}
+.capture .uk-grid-tiny {
+	width: 75%;
+	margin: auto
+}
+.capture .h1, .capture p {
+	text-align: left;
+	padding: 30px 0 0 25px
+}
+.capture .regular {
+	font-weight: 400
+}
+.capture .image-middle {
+	vertical-align: middle
+}
+
+@media screen and (max-width:900px) {
+.product-overview--capture .vgutter-medium .uk-width-1-2:first-child {
+	margin-bottom: 25px
+}
+.visia-collage {
+	width: 100%;
+	margin: auto;
+	height: auto
+}
+}
+.product-overview--communication {
+	background: url(/common/images/imaging-systems/visia-complexion-analysis/bg-communication.jpg?2016-mar-15) center center no-repeat #111;
+	background-size: cover;
+	position: relative;
+	padding: 75px 0 50px
+}
+.product-overview--communication .section-header {
+	padding-bottom: 25px
+}
+.product-overview--communication .h1, .product-overview--communication p {
+	color: #fff
+}
+
+@media screen and (max-width:900px) {
+.product-overview--communication {
+	background-position: left 20% center
+}
+.product-overview--communication:after {
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	z-index: 2;
+	content: "";
+	display: block;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0
+}
+.product-overview--communication .inside {
+	position: relative;
+	z-index: 3
+}
+}

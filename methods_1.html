@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Technologies</title>
+	<link href="css/global.css" rel="stylesheet" type="text/css" >
+	<link href="css/methods.css" rel="stylesheet" type="text/css" >
+</head>
+	
+<body class="methods">
+	<div class="outside navigation"> 
+		<!-- .outside.navigation : BEGIN -->
+		<div class="inside">
+			<div class="nav-logo">
+				<a href="homepage.html"><img src="images/course.png" width="380" height="100"></a>
+			</div>
+			<div class="nav-mobile-icon">
+				<div class="nav-mobile-icon-line nav-mobile-icon-line1"></div>
+				<div class="nav-mobile-icon-line nav-mobile-icon-line2"></div>
+				<div class="nav-mobile-icon-line nav-mobile-icon-line3"></div>
+			</div>
+			<div class="nav">
+				<ul class="nav-ul">
+					<li class="nav-li nav-li-is nav-li-icon">
+						<span class="nav-a--mobile-trigger nav-a-is--mobile-trigger"></span>
+						<a href="factors.html" class="nav-a nav-a-is">Factors</a>
+					</li>
+					<li class="nav-li nav-li-cs nav-li-icon">
+						<span class="nav-a--mobile-trigger nav-a-cs--mobile-trigger"></span>
+						<a href="technologies.html" class="nav-a nav-a-cs">Technologies</a>
+					</li>
+					<li class="nav-li nav-li-ic nav-li-icon">
+						<span class="nav-a--mobile-trigger nav-a-ic--mobile-trigger"></span>
+						<a href="methods.html" class="nav-a nav-a-ic">Methods</a>
+					</li>
+					<li class="nav-li nav-li-support nav-li-icon">
+						<span class="nav-a--mobile-trigger nav-a-ic--mobile-trigger"></span>
+						<a href="Application_0.html" class="nav-a nav-a-support"> Applications</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- .outside.navigation : END -->
+	<div class="wide-container"> 
+		<!-- Overview:Capture : BEGIN -->
+		<div class="outside product-overview section--figure-center vgutter-medium" data-scroll-index="0">
+			<div class="inside">
+				<div class="text">
+					<div class="section-header section-header--centered">
+					  <h2 class="h1">A method for age estimation</h2>
+					  <p class="p--large">The page focus on unsupervised neural network method for age estimation using facial features. The block diagram is described below. The first stage is the image pre-processing stage which comprises of the grayscale conversion, image cropping and resize. The second stage is the facial feature extraction stage where the facial features were extracted using Principal Component Analysis(PCA) and finally the age estimation stage which uses SOFM to estimate the age group.</p>
+					</div>
+				</div>
+				</div align="center"><img src="images/Block-diagram.png" alt="" width="850" height="10"/>
+
+			  <div class="container">
+				  <section class="grid-row grid-row--center">
+						<div class="grid-column span-half pt3 pb3 mobile-m order-1">
+							<div class="relative">
+                        		<img class="info-image relative z2" src="images/pre-processing.png" alt="Cabin">
+								<div class="pattern pattern--left-down absolute z1"></div>
+						  </div>
+				    </div>
+						<div class="grid-column span-half pt3 pb3 mobile-m order-2">
+						  <h3>Image Pre-processing</h3>
+						  <p>This stage comprises of the grayscale conversion, image cropping and image resizing. This stage helps to get rid of unwanted information that would have been extracted as features and reduces the work to be done during feature extraction. Grayscale conversion is used to reduce the number of pixels. Cropping was done using the Viola-Jones algorithm so as to 
+remove the irrelevant features of the face image. The image was then resized to 40 by 40.</p>
+						</div>
+						<div class="grid-column span-half pt3 pb3 mobile-m order-4">
+						  <h3>Facial Feature Extraction</h3>
+						  <p>PCA is used to extract the facial features from the images. PCA is a suitable strategy for feature extraction because it identifies variability between human faces, which may not be immediately obvious. In facial feature, these variables are called eigenfaces because when plotted they display a ghostly resemblance to human faces. In PCA, Eigenface finds the principal components of the distribution of faces, or the eigenvectors of the covariance matrix of the set of face images. These eigenvectors is a set of features that together characterize the variations between face images. The highest 20 eigenvectors were used in this work. Facial features including Eyes, Nose, Lips and Chin were extracted using the PCA.</p>
+						</div>
+						<div class="grid-column span-half pt3 pb3 mobile-m order-3">
+							<div class="relative">
+								<img class="info-image relative z2" src="images/PCA.png" alt="Teepee">
+								<div class="pattern pattern--right-middle absolute z1"></div><br>
+							</div>
+						</div>
+						<div class="grid-column span-half pt3 pb3 mobile-m order-5">
+							<div class="relative">
+								<img class="info-image relative z2" src="images/age.jpeg" alt="Fishing">
+								<div class="pattern pattern--left-up absolute z1"></div>
+							</div>
+						</div>
+						<div class="grid-column span-half pt3 pb3 mobile-m order-6">
+						  <h3>Age Estimation</h3>
+						  <p>This stage consists of two phases: training and testing phases. In the training phase, the extracted PCA features were presented to the SOFM for training. SOFM is a clustering algorithm. During training, it classifies a set of input vectors of face parameters in a number of clusters corresponding to different age groups. For the testing stage, when given a new vector of face parameters, i.e. the input face image, the trained networks will determine the age group of the person corresponding to the face image and output the age group.</p>
+                		</div>
+					  	<div class="grid-column span-full pt3 pb3 mobile-m order-7">
+							<h3 align="left">Reference</h3>
+							<p align="left">Oladele, M.O., Omidiora, E.O., & Adepoju, T.M. (2015). An Unsupervised Neural Network Method for Age Group Estimation using Facial Features. Transactions on Machine Learning and Artificial Intelligence, 3(6), 34-41. doi: 10.14738/tmlai.36.1689</p>
+							<a href="methods.pdf">Click here to view the paper.</a>
+						</div>
+			    </section>
+			  </div>
+    		</div>
+  		</div>
+	</div>
+</body>
+</html>
